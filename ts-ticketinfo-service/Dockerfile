@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM eclipse-temurin:8-jdk-noble
 
 
 ADD ./target/ts-ticketinfo-service-1.0.jar /app/
